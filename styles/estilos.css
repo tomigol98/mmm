@@ -1,0 +1,75 @@
+body{
+    color: rgb(0, 0, 0);
+    background-color: rgb(218, 191, 142);
+}
+
+.Menu{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 150px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStYiE2PBpSqWJi0H_BSnyDBxioZ1k1mJ6a9Q&usqp=CAU);
+    text-align: center;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    padding: 10px;
+}
+
+a{
+    font-family:'Arial Narrow';
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 25px;
+    padding-right: 20px;
+}
+
+.parrafo{
+    height: 300px;
+    width: 500px;
+    margin-left: 10px;
+}
+
+.grid-padre{
+    display: grid;
+    grid-template-areas:
+     "parrafo1 parrafo2 parrafo2"
+     "parrafo1 parrafo3 parrafo3";
+    grid-template-rows: 150px 100px; 
+    grid-template-columns: 40% 30% 30%;
+
+}
+
+#parrafo1{
+    grid-area: parrafo1;
+}
+#parrafo2{
+    grid-area: parrafo2;
+}
+#parrafo3{
+    grid-area: parrafo3;
+}
+
+.flex-container{
+    display: flex;
+    padding: 10px;
+}
+
+.flex-container div{
+    background-color: blanchedalmond;
+    width: 1000px;
+    margin: 5px;
+    text-align:center ;
+    line-height: 80px;
+}
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+}
