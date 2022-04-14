@@ -57,7 +57,7 @@ a{
 }
 
 .flex-container div{
-    background-color: #ffebcd;
+    background-color: hwb(36 80% 0%);
     width: 1000px;
     margin: 5px;
     text-align:center ;
