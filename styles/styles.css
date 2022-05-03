@@ -1,0 +1,94 @@
+body {
+  color: black;
+  background-color: #dabf8e; }
+
+.Menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 150px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStYiE2PBpSqWJi0H_BSnyDBxioZ1k1mJ6a9Q&usqp=CAU);
+  text-align: center;
+  border-top: solid 2px;
+  border-bottom: solid 2px;
+  padding: 10px; }
+
+a {
+  font-family: 'Arial Narrow';
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  padding-right: 20px; }
+
+.parrafo {
+  height: 300px;
+  width: 500px;
+  margin-left: 10px; }
+
+.grid-padre {
+  display: grid;
+  grid-template-areas: "parrafo1 parrafo2 parrafo2" "parrafo1 parrafo3 parrafo3";
+  grid-template-rows: 150px 100px;
+  grid-template-columns: 40% 30% 30%; }
+
+#parrafo1 {
+  grid-area: parrafo1; }
+
+#parrafo2 {
+  grid-area: parrafo2; }
+
+#parrafo3 {
+  grid-area: parrafo3; }
+
+.flex-container {
+  display: flex;
+  padding: 10px; }
+
+.flex-container div {
+  background-color: hwb(36 80% 0%);
+  width: 1000px;
+  margin: 5px;
+  text-align: center;
+  line-height: 80px; }
+
+.card {
+  border-radius: 10px;
+  min-height: 200px;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center; }
+
+.tamanioimg {
+  height: 100xp;
+  width: 250px; }
+
+.page-header {
+  background: url(https://easetemplate.com/free-website-templates/hike/images/pageheader.jpg) no-repeat;
+  position: relative;
+  background-size: cover; }
+
+.page-caption {
+  padding-top: 170px;
+  padding-bottom: 174px; }
+
+.page-title {
+  font-size: 46px;
+  line-height: 1;
+  color: #fff;
+  font-weight: 600;
+  text-align: center; }
+
+.card-section {
+  position: relative;
+  bottom: 60px; }
+
+.card-block {
+  padding: 80px; }
+
+.section-title {
+  margin-bottom: 60px; }
